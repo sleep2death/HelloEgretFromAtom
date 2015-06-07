@@ -46,7 +46,8 @@ module.exports = function(grunt) {
 }
 ```
 - Input `cd [your/project/path]` and `grunt` in your terminal. Now "grunt" is "watching" every change you made to the souce files, and build the project automatically.
-##Usaful plugins
+
+##Useful plugins
 - [atom-project-manager](https://github.com/danielbrodin/atom-project-manager): Managing your project.
 - [atom-vim-mode](https://github.com/atom/vim-mode):Writing code with vim.
 - [adobe-source-code-pro](https://github.com/adobe/source-code-pro):Best coding font.
