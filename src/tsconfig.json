@@ -1,0 +1,26 @@
+{
+    "version": "1.5.0-alpha",
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true
+    },
+    "filesGlob": [
+        "./**/*.ts",
+        "../libs/core/**/*.d.ts",
+        "!./node_modules/**/*.ts"
+    ],
+    "files": [
+        "./LoadingUI.ts",
+        "./Main.ts",
+        "../libs/core/core.d.ts",
+        "../libs/core/egret/context/html5.d.ts",
+        "../libs/core/egret/context/native.d.ts",
+        "../libs/core/extension/resource/res.d.ts"
+    ]
+}
